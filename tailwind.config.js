@@ -39,7 +39,7 @@ export default {
     themes: [
       {
         wswTheme: {
-          primary: "#0073e6",
+          primary: "#066eab",
           secondary: "#abd234",
           accent: "#37cdbe",
           neutral: "#3d4451",
