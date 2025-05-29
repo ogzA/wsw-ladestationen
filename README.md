@@ -1,99 +1,99 @@
 # WSW Ladestationen - Electric Vehicle Charging Station Map
 
-A modern web application that displays electric vehicle charging stations in Wuppertal, Germany. This project was developed as a demonstration of React development skills and modern web technologies.
+Eine moderne Webanwendung, die Elektrofahrzeug-Ladestationen in Wuppertal, Deutschland anzeigt. Dieses Projekt wurde als Demonstration von React-Entwicklungskompetenzen und modernen Webtechnologien entwickelt.
 
-## 🚀 Features
+## 🚀 Funktionen
 
-- Interactive map interface showing charging station locations
-- Real-time filtering of charging stations by:
-  - Connection type (AC/DC)
-  - Minimum number of plugs
-  - Location search (address or postal code)
-- Responsive design for both desktop and mobile devices
-- User location detection
-- Station clustering for better map performance
-- Detailed station information in popups
-- Modern, accessible UI with smooth animations
+- Interaktive Kartenoberfläche zur Anzeige von Ladestationsstandorten
+- Echtzeit-Filterung von Ladestationen nach:
+  - Verbindungstyp (AC/DC)
+  - Mindestanzahl der Stecker
+  - Standortsuche (Adresse oder Postleitzahl)
+- Responsive Design für Desktop- und Mobilgeräte
+- Benutzerstandort-Erkennung
+- Station-Clustering für bessere Kartenperformance
+- Detaillierte Stationsinformationen in Popups
+- Moderne, barrierefreie Benutzeroberfläche mit flüssigen Animationen
 
-## 🛠️ Technologies Used
+## 🛠️ Verwendete Technologien
 
 ### Frontend Framework
 
-- **React 18** - For building a modern, component-based UI
-- **TypeScript** - For type safety and better developer experience
-- **Vite** - For fast development and optimized production builds
+- **React 18** - Für den Aufbau einer modernen, komponentenbasierten Benutzeroberfläche
+- **TypeScript** - Für Typsicherheit und bessere Entwicklererfahrung
+- **Vite** - Für schnelle Entwicklung und optimierte Produktions-Builds
 
 ### UI/UX
 
-- **Tailwind CSS** - For utility-first styling and rapid development
-- **DaisyUI** - For pre-built components and consistent design
-- **Lucide React** - For beautiful, consistent icons
-- **React Hot Toast** - For non-intrusive notifications
+- **Tailwind CSS** - Für Utility-First-Styling und schnelle Entwicklung
+- **DaisyUI** - Für vorgefertigte Komponenten und konsistentes Design
+- **Lucide React** - Für schöne, konsistente Icons
+- **React Hot Toast** - Für unaufdringliche Benachrichtigungen
 
-### Map Integration
+### Karten-Integration
 
-- **Leaflet** - For the interactive map functionality
-- **React Leaflet** - React components for Leaflet
-- **Leaflet.MarkerCluster** - For efficient marker clustering
+- **Leaflet** - Für die interaktive Kartenfunktionalität
+- **React Leaflet** - React-Komponenten für Leaflet
+- **Leaflet.MarkerCluster** - Für effizientes Marker-Clustering
 
-### Development Tools
+### Entwicklungstools
 
-- **ESLint** - For code quality and consistency
-- **TypeScript** - For static type checking
-- **PostCSS** - For CSS processing
-- **Autoprefixer** - For cross-browser compatibility
+- **ESLint** - Für Codequalität und Konsistenz
+- **TypeScript** - Für statische Typprüfung
+- **PostCSS** - Für CSS-Verarbeitung
+- **Autoprefixer** - Für browserübergreifende Kompatibilität
 
-## 💡 Technical Decisions
+## 💡 Technische Entscheidungen
 
-### Why React + TypeScript?
+### Warum React + TypeScript?
 
-- TypeScript provides type safety and better IDE support
-- React's component-based architecture enables reusable, maintainable code
-- Modern React features (hooks, context) for efficient state management
+- TypeScript bietet Typsicherheit und bessere IDE-Unterstützung
+- Reacts komponentenbasierte Architektur ermöglicht wiederverwendbaren, wartbaren Code
+- Moderne React-Features (Hooks, Context) für effizientes State-Management
 
-### Why Vite?
+### Warum Vite?
 
-- Significantly faster development server compared to Create React App
-- Optimized production builds
-- Native ESM support
-- Better developer experience with instant hot module replacement
+- Deutlich schnellerer Entwicklungsserver im Vergleich zu Create React App
+- Optimierte Produktions-Builds
+- Native ESM-Unterstützung
+- Bessere Entwicklererfahrung mit sofortigem Hot Module Replacement
 
-### Why Tailwind CSS?
+### Warum Tailwind CSS?
 
-- Utility-first approach for rapid UI development
-- No need to switch between files for styling
-- Smaller bundle size through PurgeCSS
-- Consistent design system
-- Easy responsive design implementation
+- Utility-First-Ansatz für schnelle UI-Entwicklung
+- Kein Wechsel zwischen Dateien für Styling erforderlich
+- Kleinere Bundle-Größe durch PurgeCSS
+- Konsistentes Design-System
+- Einfache responsive Design-Implementierung
 
-### Why Leaflet?
+### Warum Leaflet?
 
-- Lightweight and performant
-- Extensive plugin ecosystem
-- Better performance than Google Maps for this use case
-- Free to use with OpenStreetMap tiles
+- Leichtgewichtig und performant
+- Umfangreiches Plugin-Ökosystem
+- Bessere Performance als Google Maps für diesen Anwendungsfall
+- Kostenlos nutzbar mit OpenStreetMap-Tiles
 
-## 🚀 Getting Started
+## 🚀 Erste Schritte
 
-1. Clone the repository
+1. Repository klonen
 
 ```bash
 git clone [repository-url]
 ```
 
-2. Install dependencies
+2. Abhängigkeiten installieren
 
 ```bash
 npm install
 ```
 
-3. Start the development server
+3. Entwicklungsserver starten
 
 ```bash
 npm run dev
 ```
 
-4. Build for production
+4. Für Produktion erstellen
 
 ```bash
 npm run build
@@ -101,32 +101,32 @@ npm run build
 
 ## 📱 Responsive Design
 
-The application is fully responsive and works seamlessly on:
+Die Anwendung ist vollständig responsive und funktioniert nahtlos auf:
 
-- Desktop computers
+- Desktop-Computern
 - Tablets
-- Mobile devices
+- Mobilgeräten
 
-## 🔒 Accessibility
+## 🔒 Barrierefreiheit
 
-The application follows accessibility best practices:
+Die Anwendung folgt bewährten Praktiken der Barrierefreiheit:
 
-- Semantic HTML structure
-- ARIA labels where necessary
-- Keyboard navigation support
-- Sufficient color contrast
-- Screen reader friendly
+- Semantische HTML-Struktur
+- ARIA-Labels wo erforderlich
+- Tastaturnavigation-Unterstützung
+- Ausreichender Farbkontrast
+- Screenreader-freundlich
 
-## 🎯 Future Improvements
+## 🎯 Zukünftige Verbesserungen
 
-Potential areas for enhancement:
+Potenzielle Bereiche für Erweiterungen:
 
-- Real-time station availability
-- User authentication for favorite stations
-- Route planning to charging stations
-- Station rating and review system
-- Integration with car navigation systems
+- Echtzeit-Verfügbarkeit der Stationen
+- Benutzerauthentifizierung für Lieblingsstationen
+- Routenplanung zu Ladestationen
+- Bewertungs- und Rezensionssystem für Stationen
+- Integration mit Auto-Navigationssystemen
 
-## 📄 License
+## 📄 Lizenz
 
-This project is open source and available under the MIT License.
+Dieses Projekt ist Open Source und unter der MIT-Lizenz verfügbar.
