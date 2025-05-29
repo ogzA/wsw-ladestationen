@@ -35,7 +35,7 @@ const Navbar: React.FC = () => {
               <Search className="absolute left-3 top-2.5 h-4 w-4 text-gray-400" />
               <button
                 type="submit"
-                className="absolute right-2 top-1.5 px-2 py-1 text-xs bg-primary-600 text-white rounded hover:bg-primary-700 transition-colors"
+                className="absolute right-2 top-1.5 px-2 py-1 text-xs bg-secondary-400 text-white rounded hover:bg-primary-500 transition-colors"
               >
                 Suchen
               </button>
