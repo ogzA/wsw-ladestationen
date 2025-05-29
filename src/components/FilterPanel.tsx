@@ -84,7 +84,7 @@ const FilterPanel: React.FC<FilterPanelProps> = ({ onClose }) => {
           <div className="flex items-end space-x-2">
             <button
               onClick={applyFilters}
-              className="btn bg-primary-500 outline-primary-500 flex-1"
+              className="btn bg-primary-500 outline-primary-500 border-primary-500 flex-1"
             >
               Filter anwenden
             </button>
