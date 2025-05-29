@@ -86,18 +86,26 @@ const Navbar: React.FC = () => {
               <Search className="absolute left-3 top-2.5 h-4 w-4 text-gray-400" />
             </div>
             <div className="flex justify-end gap-2 mt-4">
-              <form method="dialog">
-                <button className="btn btn-sm btn-outline">Abbrechen</button>
-              </form>
+              <button
+                type="button"
+                onClick={() => document.getElementById("search-modal")?.close()}
+                className="btn btn-sm btn-outline"
+              >
+                Abbrechen
+              </button>
               <button type="submit" className="btn btn-sm btn-primary">
                 Suchen
               </button>
             </div>
           </form>
         </div>
-        <form method="dialog" className="modal-backdrop">
-          <button>close</button>
-        </form>
+        <div className="modal-backdrop">
+          <button
+            onClick={() => document.getElementById("search-modal")?.close()}
+          >
+            close
+          </button>
+        </div>
       </dialog>
     </header>
   );
