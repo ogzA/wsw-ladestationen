@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
 
           <div className="flex space-x-4">
             <p>
-              Die Website ist ein Projekt von{" "}
+              Diese Website wurde von{" "}
               <a
                 href="https://oguzakankan.com"
                 className="text-primary-500"
@@ -22,7 +22,8 @@ const Footer: React.FC = () => {
               >
                 Oguz Akankan
               </a>{" "}
-              und <strong>nicht</strong> offizielle Website von WSW mobil GmbH.
+              als Demonstrationsprojekt entwickelt und steht in keiner
+              offiziellen Verbindung zur WSW mobil GmbH.
             </p>
           </div>
         </div>
