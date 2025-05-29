@@ -42,7 +42,7 @@ const Navbar: React.FC = () => {
             </form>
             <button
               onClick={() => setIsFilterOpen(!isFilterOpen)}
-              className="flex items-center space-x-1 px-3 py-2 bg-primary-600 rounded-md hover:bg-primary-700 transition-colors"
+              className="flex items-center space-x-1 px-3 py-2 bg-secondary-400 rounded-md hover:bg-primary-700 transition-colors"
             >
               <Sliders className="h-4 w-4" />
               <span className="text-sm">Filter</span>
