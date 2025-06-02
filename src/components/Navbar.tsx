@@ -72,7 +72,7 @@ const Navbar: React.FC = () => {
 
       {/* Mobile Search Modal */}
       <dialog id="search-modal" className="modal modal-bottom sm:modal-middle">
-        <div className="modal-box">
+        <div className="modal-box bg-primary-500">
           <h3 className="font-bold text-lg mb-4">Suche</h3>
           <form onSubmit={handleSearch}>
             <div className="relative">
@@ -93,7 +93,10 @@ const Navbar: React.FC = () => {
               >
                 Abbrechen
               </button>
-              <button type="submit" className="btn btn-sm btn-primary">
+              <button
+                type="submit"
+                className="btn btn-sm bg-secondary-400 hover:bg-primary-700 border-secondary-400 hover:border-primary-700"
+              >
                 Suchen
               </button>
             </div>
